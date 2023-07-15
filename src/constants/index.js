@@ -100,7 +100,7 @@ const projects = [
             },
         ],
         image: todo,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Fushdarana/todo",
     },
     {
         name: "Forget-Me-Note",

@@ -11,7 +11,7 @@ const Hero = () => {
                 variants={textVariant()}
                 className={`bg-gray-900 mt-32 max-h-xs max-w-2xl mx-auto ${styles.paddingX} flex flex-col items-center gap-5 rounded-3xl`}>
                 <h1 className={`${styles.heroHeadText} text-white text-center`}>
-                    Привет, я <span className='text-[#915EFF]'>Вика</span>
+                    Привет, я&nbsp;<span className='text-[#915EFF]'>Вика</span>
                 </h1>
                 <p className={`${styles.heroSubText} text-center mt-2 text-white-100`}>
                     начинающий <br className='sm:block hidden text-center'/>
