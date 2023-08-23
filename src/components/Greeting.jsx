@@ -3,8 +3,9 @@ import {styles} from "../styles.js"
 import {SectionWrapper} from "../hoc/index.js"
 import {motion} from "framer-motion"
 import {textVariant} from "../utils/motion.js";
+import {photos} from '../constants/index.js'
 
-const Hero = () => {
+const Greeting = () => {
     return (
         <section>
             <motion.div
@@ -17,10 +18,10 @@ const Hero = () => {
                     начинающий <br className='sm:block hidden text-center'/>
                     Frontend разработчик
                 </p>
-                    <img className='rounded-full max-h-64 mt-5 mb-20' src='/public/photo.jpg' alt='photo'/>
+                    <img className='rounded-full max-h-64 mt-5 mb-20' src={photos.img} alt='photo'/>
             </motion.div>
         </section>
     )
 }
 
-export default SectionWrapper(Hero, '/')
+export default SectionWrapper(Greeting, '/')

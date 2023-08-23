@@ -4,16 +4,18 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
     git,
     figma,
     notes,
     todo,
     gallery,
     nextJS,
-    scss
+    scss,
+    vue,
+    vuex,
+    nuxt,
+    photo
 } from "../assets";
 
 
@@ -50,12 +52,16 @@ const technologies = [
         icon: typescript,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "Vue",
+        icon: vue,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Vuex",
+        icon: vuex,
+    },
+    {
+        name: "Nuxt",
+        icon: nuxt,
     },
     {
         name: "Tailwind CSS",
@@ -74,11 +80,19 @@ const technologies = [
         icon: scss,
     },
     {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
         name: "nextJS",
         icon: nextJS,
     },
 ];
 
+const photos =
+    {
+        img: photo
+    }
 
 const projects = [
     {
@@ -100,28 +114,32 @@ const projects = [
             },
         ],
         image: todo,
-        source_code_link: "https://github.com/Fushdarana/todo",
+        source_code_link: "https://github.com/Fushdarana/forget-me-note",
     },
     {
         name: "Forget-Me-Note",
         description:
-            "Приложение для заметок. Воозможность добавлять и редактировать текст, фото, видео, а также создавать группы и добавлять заметки в избранное. Динамический роутинг и серверверный рендеринг реализованы с помощью NextJS.",
+            "Приложение для заметок. Воозможность добавлять и редактировать текст, фото, видео (через WYSIWYG-редактор), а также добавлять заметки в избранное. Реализовано управление состоянием через vuex.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "vue",
+                color: "green-text-gradient",
             },
             {
                 name: "restapi",
-                color: "green-text-gradient",
+                color: "blue-text-gradient",
             },
             {
                 name: "scss",
                 color: "pink-text-gradient",
             },
             {
-                name: "nextJS",
-                color: "blue-text-gradient",
+                name: "nuxt",
+                color: "green-text-gradient",
+            },
+            {
+                name: "vuex",
+                color: "pink-text-gradient",
             }
         ],
         image: notes,
@@ -150,4 +168,4 @@ const projects = [
     },
 ];
 
-export { technologies, projects };
+export { technologies, projects, photos };
