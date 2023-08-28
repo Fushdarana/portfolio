@@ -15,12 +15,12 @@ import nextJS from './tech/nextJS.png'
 import vue from './tech/vue.png'
 import vuex from './tech/vuex.png'
 import nuxt from './tech/nuxt.png'
-
+import scss from "./tech/scss.png"
 
 import notes from "./notes.png"
 import gallery from "./gallery.png"
+import animedb from "./animedb.png"
 import todo from "./todo.png"
-import scss from "./tech/scss.png"
 
 import photo from "./photo.jpg"
 
@@ -45,5 +45,6 @@ export {
     todo,
     gallery,
     nextJS,
-    scss
+    scss,
+    animedb
 };

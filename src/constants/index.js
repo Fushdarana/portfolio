@@ -15,7 +15,8 @@ import {
     vue,
     vuex,
     nuxt,
-    photo
+    photo,
+    animedb
 } from "../assets";
 
 
@@ -122,7 +123,7 @@ const projects = [
             "Приложение для заметок. Воозможность добавлять и редактировать текст, фото, видео (через WYSIWYG-редактор), а также добавлять заметки в избранное. Реализовано управление состоянием через vuex.",
         tags: [
             {
-                name: "vue",
+                name: "vue2",
                 color: "green-text-gradient",
             },
             {
@@ -165,6 +166,27 @@ const projects = [
         ],
         image: gallery,
         source_code_link: "https://github.com/Fushdarana/3d-scroll",
+    },
+    {
+        name: "Anime DB",
+        description:
+            "База данных по аниме на Vue 3. Взаимодействие с Jikan API.",
+        tags: [
+            {
+                name: "vue3",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: animedb,
+        source_code_link: "https://github.com/Fushdarana/animedb",
     },
 ];
 
