@@ -15,8 +15,7 @@ const Greeting = () => {
                     Привет, я&nbsp;<span className='text-[#915EFF]'>Вика</span>
                 </h1>
                 <p className={`${styles.heroSubText} text-center mt-2 text-white-100`}>
-                    начинающий <br className='sm:block hidden text-center'/>
-                    Frontend разработчик
+                    Frontend-разработчик
                 </p>
                     <img className='rounded-full max-h-64 mt-5 mb-20' src={photos.img} alt='photo'/>
             </motion.div>
