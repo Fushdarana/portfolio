@@ -16,6 +16,7 @@ import vue from './tech/vue.png'
 import vuex from './tech/vuex.png'
 import nuxt from './tech/nuxt.png'
 import scss from "./tech/scss.png"
+import pinia from "./tech/pinia.png"
 
 import notes from "./notes.png"
 import gallery from "./gallery.png"
@@ -23,6 +24,10 @@ import animedb from "./animedb.png"
 import todo from "./todo.png"
 
 import photo from "./photo.jpg"
+
+import coolclub from "./companies/coolclub.png"
+import appio from "./companies/appio.png"
+import dankolab from "./companies/dankolab.png"
 
 export {
     photo,
@@ -46,5 +51,9 @@ export {
     gallery,
     nextJS,
     scss,
-    animedb
+    animedb,
+    pinia,
+    coolclub,
+    appio,
+    dankolab
 };

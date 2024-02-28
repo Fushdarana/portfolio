@@ -1,33 +1,37 @@
 import {
-    javascript,
-    typescript,
-    html,
+    animedb,
     css,
-    reactjs,
-    tailwind,
-    git,
     figma,
-    notes,
-    todo,
     gallery,
+    git,
+    html,
+    javascript,
     nextJS,
-    scss,
-    vue,
-    vuex,
+    notes,
     nuxt,
     photo,
-    animedb
+    pinia,
+    reactjs,
+    scss,
+    tailwind,
+    todo,
+    typescript,
+    vue,
+    vuex,
+    coolclub,
+    appio,
+    dankolab
 } from "../assets";
 
 
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "Experience",
     },
     {
         id: "work",
-        title: "Work",
+        title: "Projects",
     },
     {
         id: "contact",
@@ -88,6 +92,10 @@ const technologies = [
         name: "nextJS",
         icon: nextJS,
     },
+    {
+        name: "Pinia",
+        icon: pinia,
+    }
 ];
 
 const photos =
@@ -190,4 +198,34 @@ const projects = [
     },
 ];
 
-export { technologies, projects, photos };
+const companies = [
+    {
+        name: "CoolClub",
+        icon: coolclub,
+        description: 'Работала с Vue2, Vuex, разрабатывала компоненты для реализации новых фичей для личного кабинета пользователя (например: добавление заказов в избранное);\n' +
+            'Реализовала компоненты, требующие взаимодействия с внутреннем API компании;\n' +
+            'Занималась адаптивной версткой (препроцессор scss)\n' +
+            'Работала с шаблонизатором pug\n' +
+            'Взаимодействовала с WebPack(лоадеры гифок)\n' +
+            'Писала unit-тесты;',
+        tech: 'Vue2, Vuex, Nuxt, HTML, SCSS, PUG, WebPack, Jest',
+    },
+    {
+        name: "AppioTeam",
+        icon: appio,
+        description: 'Верстка адаптивных лендингов на HTML, SCSS, JS, собирали с помощью WebPack;\n' +
+            'Разрабатывала рекламные приложения для мобильных устройств и десктопа с использованием Vue3, Nuxt, Pinia;\n' +
+            'Занималась разработкой новых фичей во внутренней админке компании на Typescript (разграничение доступов пользователей с использованием JWT и тд.);',
+        tech: 'Vue3, Pinia, Nuxt, HTML, SCSS, WebPack, Pure JS, TypeScript, Quasar',
+    },
+    {
+        name: "DankoLab",
+        icon: dankolab,
+        description: 'Сборка и верстка игровых интерфейсов внутри движка Cocos Creator;\n' +
+            'Разработка архитектуры игры симулятор жизни на JS/Typescript;\n' +
+            'Примеры задач: реализация механики мини-игр, кор-механик и тд.;',
+        tech: 'Cocos Creator, TypeScript',
+    },
+]
+
+export {technologies, projects, photos, companies};
