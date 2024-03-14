@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import {useRef, useState} from "react";
 import {motion} from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -104,7 +104,7 @@ const Contact = () => {
                     <button
                         type='submit'
                         className='bg-tertiary py-3 px-8 outline-none w-fit text-white sadow-md shadow-primary rounded-xl'>
-                        {loading ? 'Sending...' : 'Send'}
+                        {loading ? 'Отправка...' : 'Отправить'}
                     </button>
                 </form>
             </motion.div>

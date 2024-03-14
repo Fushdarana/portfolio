@@ -6,12 +6,10 @@ import {
     git,
     html,
     javascript,
-    nextJS,
     notes,
     nuxt,
     photo,
     pinia,
-    reactjs,
     scss,
     tailwind,
     todo,
@@ -27,15 +25,15 @@ import {
 export const navLinks = [
     {
         id: "about",
-        title: "Experience",
+        title: "Опыт",
     },
     {
         id: "work",
-        title: "Projects",
+        title: "Pet-прокты",
     },
     {
         id: "contact",
-        title: "Contact",
+        title: "Сотрудничество",
     },
 ];
 
@@ -83,14 +81,6 @@ const technologies = [
     {
         name: "scss",
         icon: scss,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "nextJS",
-        icon: nextJS,
     },
     {
         name: "Pinia",
@@ -204,11 +194,11 @@ const companies = [
         icon: coolclub,
         description: 'Работала с Vue2, Vuex, разрабатывала компоненты для реализации новых фичей для личного кабинета пользователя (например: добавление заказов в избранное);\n' +
             'Реализовала компоненты, требующие взаимодействия с внутреннем API компании;\n' +
-            'Занималась адаптивной версткой (препроцессор scss)\n' +
-            'Работала с шаблонизатором pug\n' +
-            'Взаимодействовала с WebPack(лоадеры гифок)\n' +
+            'Занималась адаптивной версткой (препроцессор scss);\n' +
+            'Работала с шаблонизатором pug;\n' +
+            'Взаимодействовала с WebPack(лоадеры гифок);\n' +
             'Писала unit-тесты;',
-        tech: 'Vue2, Vuex, Nuxt, HTML, SCSS, PUG, WebPack, Jest',
+        tech: 'Vue2, Vuex, Nuxt, HTML, SCSS, PUG, WebPack, Jest;',
     },
     {
         name: "AppioTeam",

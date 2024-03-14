@@ -8,7 +8,7 @@ import {companies} from "../constants/index.js";
 const About = () => {
     return (
         < >
-            <motion.div className='text-center mt-8' variants={textVariant()}>
+            <motion.div className='text-center mt-14' variants={textVariant()}>
                 <h2 className={`${styles.sectionSubText}`}>
                     1 год
                 </h2>

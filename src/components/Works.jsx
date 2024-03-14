@@ -1,4 +1,3 @@
-import React from "react";
 import {Tilt} from "react-tilt";
 import {motion} from "framer-motion";
 
@@ -61,23 +60,29 @@ const ProjectCard = ({index, name, description, image, source_code_link, tags}) 
 const Works = () => {
     return (
         <>
-            <motion.div className='text-center' variants={textVariant()}>
+            <motion.div className='text-center mt-14' variants={textVariant()}>
                 <p className={`${styles.sectionSubText}`}>
-                    Работа
+                    Примеры кода
                 </p>
                 <h2 className={`${styles.sectionHeadText}`}>
-                    Мои проекты
+                    Pet-проекты
                 </h2>
             </motion.div>
 
-            <div className='w-full flex'>
+            <div className='w-full'>
                 <motion.p
                     className='mt-3 text-secondary text-[17px] text-center leading-[30px]'
                     variants={fadeIn('', '', 0.1, 1)}>
+                    ~Данные pet-проекты выполнялись до первого осознанного корпоративного опыта~
+                </motion.p>
+                <motion.p
+                    className='mt-3 text-secondary text-[17px] text-center leading-[30px]'
+                    variants={fadeIn('', '', 0.3, 1)}>
                     В&nbsp;правом верхнем углу карточек ниже&nbsp;Вы можете найти ссылки на&nbsp;GitHub репозитории
                     с&nbsp;проектами. Каждый проект был выполнен с&nbsp;целью получить оперделенный опыт при работы
                     с&nbsp;теми или иными технологиями.
                 </motion.p>
+
             </div>
 
             <div
