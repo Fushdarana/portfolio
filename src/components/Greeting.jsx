@@ -1,4 +1,3 @@
-import React from 'react'
 import {styles} from "../styles.js"
 import {SectionWrapper} from "../hoc/index.js"
 import {motion} from "framer-motion"

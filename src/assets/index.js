@@ -23,7 +23,7 @@ import gallery from "./gallery.png"
 import animedb from "./animedb.png"
 import todo from "./todo.png"
 
-import photo from "./photo-icon.jpg"
+import photo from "./photo.jpg"
 
 import coolclub from "./companies/coolclub.png"
 import appio from "./companies/appio.png"
